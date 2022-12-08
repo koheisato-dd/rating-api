@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-10
+FROM workshop/nodejs-10:latest
 
 WORKDIR /opt/app-root
 COPY package*.json ./
